@@ -123,7 +123,9 @@ The LED sequence is controlled using the Timer1 hardware timer on an ATmega-base
 
 At a clock frequency of 16 MHz, the initial comparison value for a one-second interval is:
 
-```OCR1A = 15624;```
+```c
+OCR1A = 15624;
+```
 
 The timer interrupt service routine sets the newTimerInterrupt flag. The main game logic processes this flag inside the loop() function.
 
