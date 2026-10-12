@@ -20,7 +20,6 @@ The project provides hands-on experience with microcontroller programming, inter
 
 ## Hardware Components
 
-| :-------: | :-----: |
 | Component | Purpose |
 | :-------- | :------ |
 | Arduino-compatible microcontroller | Controls the game |
