@@ -19,33 +19,41 @@ The project provides hands-on experience with microcontroller programming, inter
 - Serial output for monitoring game events.
 
 ## Hardware Components
-Component	Purpose
-Arduino-compatible microcontroller	Controls the game
-4 LEDs	Display the game sequence
-4 push buttons	Player input
-Seven-segment display	Displays the score and countdown
-Shift registers	Control the display segments
-Resistors and jumper wires	Electrical connections
+
+| Component |	Purpose |
+| :Arduino-compatible microcontroller |	Controls the game |
+| :4 LEDs |	:Display the game sequence |
+| :4 push buttons | :Player input |
+| :Seven-segment display | :Displays the score and countdown |
+| :Shift registers | :Control the display segments |
+| :Resistors and jumper wires |	:Electrical connections |
+
 Note: The display is controlled using shift registers. The exact wiring depends on the hardware being used.
 
-Pin Configuration
-LEDs
+## Pin Configuration
+
+### LEDs
+
 LED	Arduino Pin
 LED 0	A2
 LED 1	A3
 LED 2	A4
 LED 3	A5
+
 The LEDs use active-LOW logic:
 
-LOW turns an LED on.
-HIGH turns an LED off.
-Buttons
-Button	Arduino Pin
-Button 0	D2
-Button 1	D3
-Button 2	D4
-Button 3	D5
-The buttons use the INPUT_PULLUP configuration. Pressing a button connects the pin to ground, causing its input value to become LOW.
+- `LOW` turns an LED on.
+- `HIGH` turns an LED off.
+
+### Buttons
+
+| :Button	| :Arduino Pin |
+| :Button 0 |	:D2 |
+| :Button 1 | :D3 |
+| :Button 2	| :D4 |
+| :Button 3	| :D5 |
+
+The buttons use the `INPUT_PULLUP` configuration. Pressing a button connects the pin to ground, causing its input value to become `LOW`.
 
 Button state changes are detected using a pin change interrupt on Port D.
 
