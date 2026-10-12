@@ -21,7 +21,7 @@ The project provides hands-on experience with microcontroller programming, inter
 ## Hardware Components
 
 | Component | Purpose |
-| :-------: | :------ |
+| --- | --- |
 | Arduino-compatible microcontroller | Controls the game |
 | 4 LEDs | Display the game sequence |
 | 4 push buttons | Player input |
