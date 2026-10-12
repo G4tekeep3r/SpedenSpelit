@@ -100,21 +100,21 @@ The program is divided into modules to separate hardware control from the main g
 These filenames describe the intended module responsibilities. Update this section if your actual repository uses different filenames or a different file structure.
 
 ### Key Functions
-`initializeLeds()` – Initializes the LED pins.
-`setLed()` – Turns on the selected LED and turns off the others.
-`clearAllLeds()` – Turns off all LEDs.
-`setAllLeds()` – Turns on all LEDs.
-`ledShow1()` – Runs the idle-state light show.
-`ledShow2()` – Runs an accelerating light show.
-`initButtonsAndButtonInterrupts()` – Initializes the buttons and interrupts.
-`initializeDisplay()` – Initializes the display control.
-`showResult()` – Displays a number on the display.
-`clearDisplay()` – Clears the display.
-`initializeTimer()` – Configures the Timer1 hardware timer.
-`createSequence()` – Generates a random sequence.
-`startGame()` – Starts a new round.
-`initializeGame()` – Resets the game state.
-`checkGame()` – Checks whether the player's button press is correct.
+- `initializeLeds()` – Initializes the LED pins.
+- `setLed()` – Turns on the selected LED and turns off the others.
+- `clearAllLeds()` – Turns off all LEDs.
+- `setAllLeds()` – Turns on all LEDs.
+- `ledShow1()` – Runs the idle-state light show.
+- `ledShow2()` – Runs an accelerating light show.
+- `initButtonsAndButtonInterrupts()` – Initializes the buttons and interrupts.
+- `initializeDisplay()` – Initializes the display control.
+- `showResult()` – Displays a number on the display.
+- `clearDisplay()` – Clears the display.
+- `initializeTimer()` – Configures the Timer1 hardware timer.
+- `createSequence()` – Generates a random sequence.
+- `startGame()` – Starts a new round.
+- `initializeGame()` – Resets the game state.
+- `checkGame()` – Checks whether the player's button press is correct.
 
 ## Technical Implementation
 
