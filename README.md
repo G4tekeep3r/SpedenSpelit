@@ -22,12 +22,12 @@ The project provides hands-on experience with microcontroller programming, inter
 
 | Component |	Purpose |
 | :-------- | :------ |
-| :Arduino-compatible microcontroller |	Controls the game |
-| :4 LEDs |	:Display the game sequence |
-| :4 push buttons | :Player input |
-| :Seven-segment display | :Displays the score and countdown |
-| :Shift registers | :Control the display segments |
-| :Resistors and jumper wires |	:Electrical connections |
+| Arduino-compatible microcontroller | Controls the game |
+| 4 LEDs | Display the game sequence |
+| 4 push buttons | Player input |
+| Seven-segment display | Displays the score and countdown |
+| Shift registers | Control the display segments |
+| Resistors and jumper wires | Electrical connections |
 
 Note: The display is controlled using shift registers. The exact wiring depends on the hardware being used.
 
