@@ -36,7 +36,7 @@ Note: The display is controlled using shift registers. The exact wiring depends 
 ### LEDs
 
 | LED |	Arduino Pin |
-| :---- | :-------- |
+| --- | --- |
 | LED 0 | A2 |
 | LED 1 | A3 |
 | LED 2 | A4 |
@@ -49,11 +49,12 @@ The LEDs use active-LOW logic:
 
 ### Buttons
 
-| :Button	| :Arduino Pin |
-| :Button 0 |	:D2 |
-| :Button 1 | :D3 |
-| :Button 2	| :D4 |
-| :Button 3	| :D5 |
+| Button | Arduino Pin |
+| --- | --- |
+| Button 0 | D2 |
+| Button 1 | D3 |
+| Button 2 | D4 |
+| Button 3 | D5 |
 
 The buttons use the `INPUT_PULLUP` configuration. Pressing a button connects the pin to ground, causing its input value to become `LOW`.
 
