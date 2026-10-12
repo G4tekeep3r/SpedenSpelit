@@ -127,38 +127,34 @@ At a clock frequency of 16 MHz, the initial comparison value for a one-second in
 OCR1A = 15624;
 ```
 
-The timer interrupt service routine sets the newTimerInterrupt flag. The main game logic processes this flag inside the loop() function.
+The timer interrupt service routine sets the `newTimerInterrupt` flag. The main game logic processes this flag inside the `loop()` function.
 
-Button Debouncing
+### Button Debouncing
 Mechanical button bounce is filtered using a software-based approach. A 300-millisecond interval is applied between accepted interrupts, and additional interrupts within that interval are ignored.
 
-Increasing Difficulty
+### Increasing Difficulty
 The game becomes faster as the sequence progresses. The timer comparison value is reduced after every ten sequence steps, increasing the playback speed.
 
-Power-Saving Mode
+### Power-Saving Mode
 If the player does not interact with the game for 20 seconds, the program enters power-saving mode and turns off the LEDs and display segments.
 
 This mode switches off the LEDs and display in software but does not put the Arduino itself into a hardware sleep state.
 
-Getting Started
-Clone the repository to your computer.
-Open the Arduino project in the Arduino IDE.
-Make sure all required source files and header files are included.
-Connect the LEDs, buttons, and display according to the pin configuration above.
-Select the correct Arduino board and port.
-Compile the program and upload it to the microcontroller.
-Open the Serial Monitor at 9600 baud to observe game events.
-Serial Monitor Messages
+## Getting Started
+1. Clone the repository to your computer.
+2. Open the Arduino project in the Arduino IDE.
+3. Make sure all required source files and header files are included.
+4. Connect the LEDs, buttons, and display according to the pin configuration above.
+5. Select the correct Arduino board and port.
+6. Compile the program and upload it to the microcontroller.
+7. Open the Serial Monitor at 9600 baud to observe game events.
+
+## Serial Monitor Messages
 The program prints messages to the Serial Monitor to indicate the current game state.
 
-PELI ALKAA! – The game starts.
-PELI PÄÄTTYI! – The game ends after an incorrect button press.
-PELI PÄÄTTYI ENNAKOINTIIN! – The game ends because the player pressed a button too early.
-VIRRANSÄÄSTÖTILA: PÄÄLLÄ – Power-saving mode is activated.
+- `PELI ALKAA!` – The game starts.
+- `PELI PÄÄTTYI!` – The game ends after an incorrect button press.
+- `PELI PÄÄTTYI ENNAKOINTIIN!` – The game ends because the player pressed a button too early.
+- `VIRRANSÄÄSTÖTILA: PÄÄLLÄ` – Power-saving mode is activated.
+
 These messages help monitor the game and troubleshoot potential issues.
-
-flowchart
-
-wiring
-
-wirelive
