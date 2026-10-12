@@ -158,3 +158,9 @@ The program prints messages to the Serial Monitor to indicate the current game s
 - `VIRRANSÄÄSTÖTILA: PÄÄLLÄ` – Power-saving mode is activated.
 
 These messages help monitor the game and troubleshoot potential issues.
+
+<img width="1250" height="1726" alt="Vuokaavio" src="https://github.com/user-attachments/assets/ae35e847-acab-4bca-b8d3-3e8d3d4e3dac" />
+
+<img width="784" height="1232" alt="wiring" src="https://github.com/user-attachments/assets/662f85f1-c7cb-44b5-be1e-307b85f7d86c" />
+
+<img width="1200" height="1079" alt="wiringlive" src="https://github.com/user-attachments/assets/5c92199a-93cb-4715-9b17-dd63069ab884" />
