@@ -1,22 +1,24 @@
-Spede's Games – Arduino Game
-Project Description
+# Spede's Games – Arduino Game
+
+## Project Description
 This project implements a reaction and memory game inspired by Spede's Games using Arduino. The objective is to observe a sequence of LED lights and reproduce it by pressing the correct buttons in the correct order.
 
 As the game progresses, the sequence becomes faster, requiring increasingly better memory and reaction speed. The game ends if the player presses the wrong button, presses a button too early, or reaches the end of the sequence.
 
 The project provides hands-on experience with microcontroller programming, interrupts, timers, digital output control, and modular software design.
 
-Features
-Four LEDs for displaying the sequence.
-Four buttons for player input.
-Two-digit seven-segment display for showing the score.
-Randomly generated LED sequences.
-Timer-based sequence control.
-Increasing game speed as the player progresses.
-Software-based button debouncing.
-Power-saving mode activated after 20 seconds of inactivity.
-Serial output for monitoring game events.
-Hardware Components
+## Features
+- Four LEDs for displaying the sequence.
+- Four buttons for player input.
+- Two-digit seven-segment display for showing the score.
+- Randomly generated LED sequences.
+- Timer-based sequence control.
+- Increasing game speed as the player progresses.
+- Software-based button debouncing.
+- Power-saving mode activated after 20 seconds of inactivity.
+- Serial output for monitoring game events.
+
+## Hardware Components
 Component	Purpose
 Arduino-compatible microcontroller	Controls the game
 4 LEDs	Display the game sequence
