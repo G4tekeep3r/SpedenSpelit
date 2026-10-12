@@ -36,6 +36,7 @@ Note: The display is controlled using shift registers. The exact wiring depends 
 ### LEDs
 
 | :LED: |	:Arduino Pin: |
+| :---- | :------------ |
 | :LED 0 | :A2 |
 | :LED 1 | :A3 |
 | :LED 2 | :A4 |
