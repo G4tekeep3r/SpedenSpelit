@@ -29,7 +29,7 @@ The project provides hands-on experience with microcontroller programming, inter
 | Shift registers | Control the display segments |
 | Resistors and jumper wires | Electrical connections |
 
-Note: The display is controlled using shift registers. The exact wiring depends on the hardware being used.
+**Note:** The display is controlled using shift registers. The exact wiring depends on the hardware being used.
 
 ## Pin Configuration
 
